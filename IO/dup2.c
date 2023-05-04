@@ -5,6 +5,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
+
 int main()
 {
     int fd = open("log.txt", O_WRONLY | O_CREAT, 0666);
